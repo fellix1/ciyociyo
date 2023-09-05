@@ -339,8 +339,8 @@ exports.NoTeksOne = (prefix, command) => {
 exports.NoTeksTwo = (prefix, command) => {
     return `Kirim perintah ${prefix + command} *teks 1|teks 2*\n\nContoh : ${prefix + command} WhatsApp|Bot`
 }
-exports.OffNsfw = () => {
-    return `Fitur nsfw belum di aktifkan`
+exports.Offlugu = () => {
+    return `Fitur lugu belum di aktifkan`
 }
 exports.CoverBanLol = (prefix, command) => {
     return `Contoh: ${prefix + command} nama|heroes\nUsage: ${prefix + command} zeeone|jinx7`
@@ -805,7 +805,7 @@ exports.listMenu = (prefix) => {
 │○ ${prefix}stickereffect
 │○ ${prefix}downloadmenu
 │○ ${prefix}randomanime
-│○ ${prefix}nsfwmenu
+│○ ${prefix}lugumenu
 │○ ${prefix}textpromenu
 │○ ${prefix}othermenu
 │○ ${prefix}gamemenu
@@ -856,7 +856,7 @@ exports.listMenu2 = (prefix) => {
 │○ ${prefix}addpremium
 │○ ${prefix}delpremium
 │○ ${prefix}listpremium
-│○ ${prefix}nsfw 
+│○ ${prefix}lugu 
 │○ ${prefix}mute 
 │○ ${prefix}autoblok212 
 │○ ${prefix}banchat
@@ -1009,7 +1009,7 @@ exports.listMenu2 = (prefix) => {
 │○ ${prefix}cekdemote
 │○ ${prefix}delpromote
 │○ ${prefix}deldemote
-│○ ${prefix}nsfw 
+│○ ${prefix}lugu 
 │○ ${prefix}antilink 
 │○ ${prefix}antilink2
 │○ ${prefix}antiwame 
@@ -1269,7 +1269,7 @@ exports.listMenu2 = (prefix) => {
 │○ ${prefix}delstik
 ╰❒ ${prefix}liststik
 
-╭─❒ 「 Nsfw & Sfw 」
+╭─❒ 「 lugu & Sfw 」
 │○ ${prefix}ahegao
 │○ ${prefix}anal
 │○ ${prefix}avatar2
@@ -1323,7 +1323,7 @@ exports.listMenu2 = (prefix) => {
 │○ ${prefix}neko-gif
 │○ ${prefix}neko-sfw
 │○ ${prefix}neko2
-│○ ${prefix}nsfw-neko
+│○ ${prefix}lugu-neko
 │○ ${prefix}orgy
 │○ ${prefix}panties
 │○ ${prefix}pat
@@ -1963,7 +1963,7 @@ return`╭─❒ 「 Owner 」
 │○ ${prefix}addpremium
 │○ ${prefix}delpremium
 │○ ${prefix}listpremium
-│○ ${prefix}nsfw 
+│○ ${prefix}lugu 
 │○ ${prefix}mute 
 │○ ${prefix}autoblok212 
 │○ ${prefix}banchat
@@ -2041,7 +2041,7 @@ exports.group = (prefix) =>{
 │○ ${prefix}cekdemote
 │○ ${prefix}delpromote
 │○ ${prefix}deldemote
-│○ ${prefix}nsfw 
+│○ ${prefix}lugu 
 │○ ${prefix}antilink 
 │○ ${prefix}antilink2
 │○ ${prefix}antiwame 
@@ -2247,79 +2247,8 @@ exports.ranime = (prefix) =>{
 `
 }
 
-exports.nsfw = (prefix) =>{
-	return`╭─❒ 「 Nsfw & Sfw 」
-│○ ${prefix}ahegao
-│○ ${prefix}anal
-│○ ${prefix}avatar2
-│○ ${prefix}baka
-│○ ${prefix}bdsm
-│○ ${prefix}bj
-│○ ${prefix}blowjob
-│○ ${prefix}boobs
-│○ ${prefix}classic
-│○ ${prefix}cuckold
-│○ ${prefix}cuddle
-│○ ${prefix}cum
-│○ ${prefix}cumarts
-│○ ${prefix}cumsluts
-│○ ${prefix}ero
-│○ ${prefix}erofeet
-│○ ${prefix}erokemonomimi
-│○ ${prefix}erokitsune
-│○ ${prefix}eroneko
-│○ ${prefix}eroyuri
-│○ ${prefix}feed
-│○ ${prefix}feet
-│○ ${prefix}feetgif
-│○ ${prefix}femdom
-│○ ${prefix}foot
-│○ ${prefix}foxgirl
-│○ ${prefix}futanari
-│○ ${prefix}gangbang
-│○ ${prefix}girl-solo
-│○ ${prefix}girl-solo-gif
-│○ ${prefix}glasses
-│○ ${prefix}hentai
-│○ ${prefix}hentai
-│○ ${prefix}hentai-gif
-│○ ${prefix}holo
-│○ ${prefix}holo2
-│○ ${prefix}holoero
-│○ ${prefix}hug
-│○ ${prefix}jahy
-│○ ${prefix}kemonomimi
-│○ ${prefix}kemonomimi2
-│○ ${prefix}keta
-│○ ${prefix}kiss
-│○ ${prefix}kitsune
-│○ ${prefix}kuni
-│○ ${prefix}lesbian
-│○ ${prefix}lizard
-│○ ${prefix}masturbation
-│○ ${prefix}meowi
-│○ ${prefix}neko
-│○ ${prefix}neko-gif
-│○ ${prefix}neko-sfw
-│○ ${prefix}neko2
-│○ ${prefix}nsfw-neko
-│○ ${prefix}orgy
-│○ ${prefix}panties
-│○ ${prefix}pat
-│○ ${prefix}poke
-│○ ${prefix}pussyart
-│○ ${prefix}pussywankgif
-│○ ${prefix}slap
-│○ ${prefix}smug
-│○ ${prefix}spank
-│○ ${prefix}tentacles
-│○ ${prefix}thighs
-│○ ${prefix}tickle
-│○ ${prefix}tits
-│○ ${prefix}trap
-│○ ${prefix}woof
-│○ ${prefix}yuri
-╰❒ ${prefix}zettai
+exports.lugu = (prefix) =>{
+	return`╭─❒ 「 lugu & Sfw 」
 `
 }
 
